@@ -25,5 +25,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Device": {
+    "dataSource": "db",
+    "public": true
   }
 }
