@@ -8,26 +8,26 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mysqldb"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mysqldb",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mysqldb",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mysqldb",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mysqldb",
     "public": false
   },
   "Device": {
-    "dataSource": "db",
+    "dataSource": "mysqldb",
     "public": true
   }
 }
