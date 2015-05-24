@@ -11,7 +11,7 @@ var app = require(path.resolve(__dirname, '../server'));
 // count tables so we can disconnect when all is finished.
 var count;
 
-startAutomigrate('db');
+startAutomigrate('mysqldb');
 
 function startAutomigrate(db) {
   console.log('Environment: '+process.env.NODE_ENV);
