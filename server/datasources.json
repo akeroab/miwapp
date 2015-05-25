@@ -4,12 +4,12 @@
     "connector": "memory"
   },
   "mysqldb": {
-    "name": "mysqldb",
-    "connector": "mysql",
     "host": "localhost",
     "port": 3306,
     "database": "demo",
     "username": "demo",
-    "password": "L00pBack"
+    "password": "L00pBack",
+    "name": "mysqldb",
+    "connector": "mysql"
   }
 }
