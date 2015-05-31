@@ -29,5 +29,9 @@
   "Device": {
     "dataSource": "mysqldb",
     "public": true
+  },
+  "Client": {
+    "dataSource": "mysqldb",
+    "public": true
   }
 }
